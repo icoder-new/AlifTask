@@ -2,6 +2,9 @@
 
 Just app created for alif
 
+### Requires at Python 3.10 at least.
+
+
 ### Installation.
 
 #### Clone the repo
