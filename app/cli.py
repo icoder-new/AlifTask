@@ -130,7 +130,10 @@ def calculate_action(filename: str):
     print(f"Total: {total}")
 
 
-def main(filename: str = Argument(..., help="Just filename with commands"), action: str = Argument(..., help="Action")):
+def main(
+        filename: str = Argument(..., help="Just filename with commands"),
+        action: str = Argument(..., help="Action [add|change|calculate|remove]")
+):
     """Main function of program"""
 
     act_type = ActionType.from_string(action)
